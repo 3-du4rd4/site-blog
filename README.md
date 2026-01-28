@@ -1,40 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Blog com CMS – Next.js
 
-## Getting Started
+Projeto de um **blog com CMS** desenvolvido com **Next.js**, criado durante um curso na **Rocketseat** com o objetivo de treinar e consolidar os **fundamentos do framework**.
 
-First, run the development server:
+A aplicação conta com páginas estáticas e dinâmicas, foco em **SEO**, organização de conteúdo via CMS e deploy em produção.
+
+##  Deploy
+Acesse o projeto em produção [neste link](https://site-blog-fawn-ten.vercel.app/).
+
+##  O que foi praticado neste projeto
+- Fundamentos do **Next.js**
+- Roteamento, data fetching e renderização
+- Estruturação de um blog
+- Boas práticas de **SEO**
+- Organização e consumo de conteúdo com **Contentlayer**
+- Estilização com **Tailwind CSS**
+- Deploy na **Vercel**
+
+##  Tecnologias utilizadas
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Contentlayer**
+- **Vercel**
+
+##  Como rodar o projeto localmente
 
 ```bash
+# Clone o repositório
+git clone https://github.com/3-du4rd4/site-blog
+
+# Acesse a pasta
+cd site-blog
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
